@@ -12,7 +12,7 @@ A website created with C# and HTML where a user can submit a contact and store i
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Homepage** | User accesses localhost:5000 | Homepage with list of all contacts |
+| **Homepage** | User accesses http://localhost:5000| Homepage with list of all contacts |
 | **Program Directs you to New contact** | User input: "New Contact" | Output: "New user input page" |
 | **Program takes user input and makes new contact**| User Input: "'name''phone''address'" | Output: "stores contact and adds to list |
 | **Program Removes contact with clear button**| Input: "Clear contacts" | Output: "contacts have been cleared" |
@@ -46,4 +46,4 @@ _justinrllr@yahoo.com_
 
 *{This software is licensed under the MIT license}*
 
-Copyright (c) 2017 **_{Justin Roller co.}_**
+Copyright (c) 2018 **_{Justin Roller co.}_**

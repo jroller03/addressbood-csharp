@@ -1,0 +1,22 @@
+@{
+  Layout = "_Layout";
+}
+<div class="jumbotron">
+  <h1>Contacts</h1>
+</div>
+<p>Fill out Form to Add New Contact:</p>
+<br>
+<form action="/contact" method="post">
+  <label for="new-name">Name of Contact:</label>
+  <input id="new-name" name="new-name" type="text">
+
+  <label for="new-phoneNumber">Phone Number of Contact:</label>
+  <input id="new-phoneNumber" name="new-phoneNumber" type="text">
+
+  <label for="new-address">Address of Contact:</label>
+  <input id="new-address" name="new-address" type="text">
+
+  <button type="submit">Add Contact</button>
+</form>
+<br>
+<p><a href="/">Back Home</p>
